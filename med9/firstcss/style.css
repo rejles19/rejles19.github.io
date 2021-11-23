@@ -1,0 +1,28 @@
+h1 {
+	background-color: purple;
+	text-decoration: underline;
+	text-align: center;
+	font-size: 40px;
+}
+
+
+body {
+	background-color: Lightgray;
+}
+
+
+p {
+	border: 2px dotted lightblue;
+	font-size: 30px;
+	text-align: center;
+}
+
+ul {
+	background-color: Lightpink;
+	color: white;
+}
+
+ol {
+	background-color:Lightpink;
+	color: white;
+}

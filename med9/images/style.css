@@ -1,0 +1,20 @@
+
+.left{
+	margin: 10px;
+	border: 10px solid antiquewhite;
+	width:200px;
+	float:left;
+
+}
+
+.right{
+	margin:10px;
+	border:10px solid antiquewhite;
+	width: 200px;
+	float:right;
+
+
+}
+p{
+	font-size: 25px;
+}
