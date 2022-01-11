@@ -1,0 +1,17 @@
+h1{
+	background: rgb(121,9,113);
+background: linear-gradient(90deg, rgba(121,9,113,1) 14%, rgba(0,212,255,1) 68%);
+font-size: 40px;
+}
+
+h2{
+	background: rgb(227,21,21);
+background: linear-gradient(180deg, rgba(227,21,21,1) 6%, rgba(255,214,0,1) 22%, rgba(125,255,0,1) 47%, rgba(0,232,255,1) 59%, rgba(0,5,255,1) 67%);
+font-size: 40px;
+}
+
+h3{
+	background: rgb(21,227,190);
+background: radial-gradient(circle, rgba(21,227,190,1) 6%, rgba(0,95,255,1) 22%, rgba(222,0,255,1) 47%);
+font-size: 40px;
+}
