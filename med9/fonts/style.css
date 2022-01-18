@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Inconsolata&family=Open+Sans:ital,wght@1,300&family=Parisienne&display=swap');
+
+h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	margin: 30px;
+	font-family: carter one;
+	letter-spacing: 5px;
+}
+
+p{
+	margin: 30px;
+	text-align: justify;
+	font-family: open sans;
+	column-count: 3;
+	line-height: 1,5;
+}
+
+.signature {
+	margin: 60px;
+	font-size: 70px;
+	font-family: parisienne;
+	column-count: 1;
+}
+
+body{background: rgb(0,95,255);
+background: linear-gradient(112deg, rgba(0,95,255,1) 25%, rgba(0,209,158,1) 50%, rgba(0,255,162,1) 68%);
+	
+}
