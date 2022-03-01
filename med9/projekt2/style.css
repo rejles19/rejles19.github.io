@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Dancing+Script&display=swap');
+h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Raleway";
+	font-size: 20px;
+
+
+}
+
+h2{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	font-family: "Dancing Script";
+	font-size: 10px;
+}
+
+.a{
+	border: dotted black 5px;
+	column-count: 3;
+	padding: 50px;
+	font-family: "Raleway";
+	margin: 20px;
+
+}
+
+#b{
+	border: dotted black 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+	background: radial-gradient(circle, rgba(121,159,167,1) 37%, rgba(88,98,159,1) 64%);
+	font-size: 15px;
+	background-color: white;
+	font-family: "Raleway";
+	margin: 20px;
+
+}
+p{
+	background-color: white;
+	padding: 20px;
+
+}
+
+.c{
+	border: dotted black 5px;
+	background-color: lightblue;
+	padding: 50px;
+	column-count: 2;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	height: 200px;
+	font-family: "Raleway";
+	margin: 20px;
+	
+
+
+}
+
+
+#d{
+	border: dotted black 5px;
+	background-color: blue;
+	padding: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+
+}
+
+img{
+	width: 60px;
+	height: 60px;
+	
+}
+
+footer{
+	border: dotted black 5px;
+	background-color: darkblue;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+	padding-top: 100px;
+	font-family: "Raleway";
+	margin: 20px;
+}
+
+
+
