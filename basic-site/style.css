@@ -1,0 +1,92 @@
+/*
+*  Title: A website about cars
+*  Author: Rejna Lesha 
+*  Date: 15.3.22;
+*/
+
+/***************** General Styles *************************/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap');
+
+body{
+	margin: 0;
+}
+
+/* Navigation */
+nav{
+	background-color: black;
+	display: flex;
+	justify-content: space-between; /* To make space between logo and list */
+	align-items: center;
+	padding: 30px;
+}
+
+nav img{
+	height: 80px;
+	border-radius: 50%;
+}
+
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+
+}
+
+nav ul li a{
+	margin: 20px;
+	padding: 20px;
+	text-decoration: none;/* Removes the underline decoration of a link */
+	color: black;
+	background-color: grey;
+	border-radius: 10px;
+	font-family: "Bitter";
+}
+
+/* Hover is used to make a nice effect if we put the mouse over the link */
+nav ul li a:hover{
+	background-color: grey;
+	color: white;
+}
+
+/* Header */
+header{
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* How to use a background image */
+	background-image: url("header-background.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+header h1{
+	font-size: 60px;
+	text-transform: uppercase;
+	background-color: rgba(255,255,255,0.8);
+	padding: 20px;
+	border-radius: 20px;
+}
+
+/* Footer */
+footer{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 400px;
+	background: linear-gradient(112deg, rgba(41,40,38,1) 25%, rgba(19,20,20,1) 68%);
+}
+
+footer p{
+	color: rgba(255,255,255,0.8);
+	font-size: 30px;
+
+}
+
+/* Section */
+section{
+	padding: 50px;
+}
