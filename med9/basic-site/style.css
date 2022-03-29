@@ -57,12 +57,17 @@ header{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* How to use a background image */
-	background-image: url("header-background.jpg");
 	background-size: cover;
 	background-position: center;
 }
 
+main{
+	padding: 100px;
+}
+
+main h2{
+	color: white;
+}
 header h1{
 	font-size: 60px;
 	text-transform: uppercase;
@@ -89,4 +94,37 @@ footer p{
 /* Section */
 section{
 	padding: 50px;
+}
+
+/**************************************** Page Styles ************************************************/
+
+/* Home Page */
+
+#home header {
+	background-image: url("header-background.jpg");
+}
+#home main{
+	background-color: lightgrey;
+}
+
+
+/* About Page */
+#about header{
+	background-image: url("header-background-about.jpg");
+}
+
+#about main{
+	background-color: lightgrey;
+}
+/* Cars Page */
+#cars header {
+	background-image: url("cars-background-header.jpg");
+}
+#cars main{
+	background-color: lightgrey;
+}
+
+/* Rejna Page */
+#rejna header{
+	background-image: url("benz-background.jpg");
 }
