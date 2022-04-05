@@ -1,0 +1,72 @@
+:root{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0;
+}
+
+nav{
+	background-color: lightpink;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+	position: fixed;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+nav img{
+	height: 80px;
+	border-radius: 50%;
+}
+
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+
+}
+
+nav ul li a{
+	margin: 20px;
+	padding: 20px;
+	text-decoration: none;
+	color: pink;
+	background-color: white;
+	border-radius: 10px;
+	
+}
+
+nav ul li a:hover{
+	background-color: pink;
+	color: white;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("header.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+}
+
+section{
+	padding: 100px;
+}
+
+#link1{
+	background-color: lightgreen;
+}
+
+#link2{
+	background-color: lightcoral;
+}
+
+#link3{
+	background-color: orange;
+}
