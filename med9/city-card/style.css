@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+article{
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+}
+article .image{
+	height: 300px;
+	width: 500px;
+	background-image: url("bild1.jpg");
+	background-position: left;
+	background-size: cover;
+	padding: 25px;
+
+}
+
+article .text{
+	background: linear-gradient(112deg, rgba(193,178,205,1) 33%, rgba(94,53,133,1) 64%);
+	width: 500px;
+	height: 300px;
+	padding: 25px;
+}
+
+article .text h1{
+	height: 20px;
+	weight: 50px;
+	background-color: white;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	text-transform: uppercase;
+	position:absolute ;
+	left: 1145px;
+	top: 170px;
+	padding: 12px;
+	font-family: "Rubik";
+}
+
+
+article .text p{
+	padding: 12px;
+	position: absolute;
+	top: 150px;
+	left: 900px;
+	color: white;
+	background-color:purple;
+	z-index: 1;
+	font-family: "Montserrat";
+}
+
+
