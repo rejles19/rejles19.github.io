@@ -1,0 +1,79 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  height: 50px;
+}
+
+#a {
+  float: right;
+  font-family: 'Koulen', cursive;
+  background-color: #0088d2;
+}
+#b{
+	float: left;
+}
+#i{
+	width: 100%;
+	height: 550px;
+	background-size: cover; 
+}
+p{
+	margin: 5px;
+	font-family: 'Bebas Neue', cursive;
+}
+.pop{
+	background-color: #333;
+	color: white;
+	font-size: 18px;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.flex-container{
+	display: flex;
+  background-image: url(https://h30434.www3.hp.com/t5/image/serverpage/image-id/173574iFF3166726F302FAE?v=v2);
+  justify-content: center;
+  background-color: DodgerBlue;
+  margin: 5px;
+}
+.flex-container > div {
+  margin: 100px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+}
+.material-icons-outlined{
+	font-size: 17px;
+}
+h1{
+	opacity: 0.2;
+	background-color: #bdc3c7;
+	font-size: 20px;
+	color: brown;
+	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+h1:hover{
+	opacity: 1;
+}
+h2, #fp{
+	margin: 0px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+}
+footer{
+	background-color: #191919;
+	height: 90px;
+	text-align: center;
+	}
