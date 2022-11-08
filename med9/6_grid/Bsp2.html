@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Grid bsp2</title>
+	<style type="text/css">
+		body{
+			display: flex;
+			justify-content: center;
+			align-items:center ;
+			min-height: 100vh;
+		}
+		div{
+			border: solid blueviolet 1px;
+		}
+.container{
+			width: 500px;
+			height: 300px;
+			/*Defines the grid.*/
+			display: grid;
+			/*Defines the number and width of the columns.*/
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-template-rows: 1fr 1fr 1fr;
+		}
+		
+		.special{
+			grid-column-start: 1;
+			grid-column-end: 3;
+			/*Short command: gid-column: 1/3;*/
+
+		}
+
+		#special{
+			grid-column: 2/4;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="special">1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+	</div>
+
+</body>
+</html>
